@@ -1,13 +1,17 @@
-﻿# Bike_Repositionning_Optimization_Plan
+# Bike Repositioning Optimization Plan
 
-TL;DR
+> Mixed-integer optimization project to improve bike-sharing operations by rebalancing station inventories.  
+> Applied to Chicago’s Divvy dataset with insights for Montreal’s BIXI system.
 
-Tackles the imbalance of bikes across urban docked bike-sharing networks.
+---
 
-Uses data exploration, optimization modeling, and sensitivity analysis.
+## 📌 TL;DR
+- Addresses bike-sharing imbalances (empty/full stations).  
+- Uses **data cleaning + visualization** and a **Mixed-Integer Programming (MIP)** model.  
+- Implemented in Python via **Gurobi** inside Jupyter Notebooks.  
+- Two scenarios tested: **Monday morning (7–9AM)** and **Wednesday evening (4–6PM)**.  
+- Produces cost-efficient truck routes and managerial insights.  
 
-Implements a Mixed-Integer Programming (MIP) model with Gurobi.
+---
 
-Evaluates two peak demand scenarios (Mon AM, Wed PM).
-
-Produces cost-efficient truck routes, rebalancing plans, and managerial insights.
+## 📂 Project Structure
