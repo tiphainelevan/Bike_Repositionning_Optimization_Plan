@@ -33,7 +33,6 @@ Bike-sharing networks often face asymmetric demand: some stations overflow while
 
 ## 🏗️ Architecture
 
-
 flowchart TD
   A[Raw Data: Divvy Trips + Stations] --> B[Data Cleaning & Exploration]  
   B --> C[Preprocessing: demand, distances, imbalances]  
@@ -81,6 +80,43 @@ Bike_Repositionning_Optimization_Plan/
 ├─ Project_Instructions.pdf  
 ├─ README.md  
 └─ requirements.txt  
+
+---
+## 🔄 Reproduce or Extend
+Follow the [Quickstart](#-quickstart) to set up the environment.  
+You can run the notebooks to replicate our findings or adapt the model to your own dataset.  
+
+👉 Data can be downloaded from the official Divvy system data portal:  
+[https://divvybikes.com/system-data](https://divvybikes.com/system-data)  
+
+---
+## 🚀 Quickstart
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/tiphainelevan/Bike_Repositionning_Optimization_Plan.git
+cd Bike_Repositionning_Optimization_Plan
+```
+
+### 2. Create a virtual environement
+ ```bash
+python -m venv .venv
+source .venv/bin/activate      # On Windows: .venv\Scripts\activate
+```
+
+### 3. Install dependencies
+``` bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Notebooks
+```bash
+jupyter notebook notebooks/
+```
+open either:
+- bike_repositionning_monday.ipynb
+- bike_repositionning_wednesday.ipynb
+
 
 
 
