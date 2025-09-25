@@ -33,6 +33,8 @@ Bike-sharing networks often face asymmetric demand: some stations overflow while
 
 ## 🏗️ Architecture
 
+## 🏗️ Architecture
+```mermaid
 flowchart TD
   A[Raw Data: Divvy Trips + Stations] --> B[Data Cleaning & Exploration]
   B --> C[Preprocessing: demand, distances, imbalances]
@@ -41,6 +43,7 @@ flowchart TD
   E --> F[Truck Routes + Station Inventories]
   F --> G[Cost Analysis & Sensitivity Scenarios]
   G --> H[Managerial Insights & Recommendations]
+
 ----
 ## 💡 Why It Matters
 - Prevents empty/full stations that frustrate riders.  
@@ -79,5 +82,6 @@ Bike_Repositionning_Optimization_Plan/
 ├─ Project_Instructions.pdf
 ├─ README.md
 └─ requirements.txt
+
 
 
