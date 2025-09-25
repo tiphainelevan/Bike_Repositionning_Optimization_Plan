@@ -69,18 +69,19 @@ flowchart TD
 ---
 
 ## 📂 Project Structure
-Bike_Repositionning_Optimization_Plan/
-├─ deliverables/ # Reports & slides
-│ ├─ final_report.pdf
-│ ├─ mip_formulation.pdf
-│ └─ presentation_deck.pdf
-├─ notebooks/ # Jupyter Notebooks with code
-│ ├─ bike_repositionning_monday.ipynb
-│ └─ bike_repositionning_wednesday.ipynb
-├─ LICENSE
-├─ Project_Instructions.pdf
-├─ README.md
-└─ requirements.txt
+Bike_Repositionning_Optimization_Plan/  
+├─ deliverables/ # Reports & slides  
+│ ├─ final_report.pdf  
+│ ├─ mip_formulation.pdf  
+│ └─ presentation_deck.pdf  
+├─ notebooks/ # Jupyter Notebooks with code  
+│ ├─ bike_repositionning_monday.ipynb  
+│ └─ bike_repositionning_wednesday.ipynb  
+├─ LICENSE  
+├─ Project_Instructions.pdf  
+├─ README.md  
+└─ requirements.txt  
+
 
 
 
