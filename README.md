@@ -35,13 +35,13 @@ Bike-sharing networks often face asymmetric demand: some stations overflow while
 
 
 flowchart TD
-  A[Raw Data: Divvy Trips + Stations] --> B[Data Cleaning & Exploration]
-  B --> C[Preprocessing: demand, distances, imbalances]
-  C --> D[MIP Model Formulation (Python + Gurobi)]
-  D --> E[Optimization Engine]
-  E --> F[Truck Routes + Station Inventories]
-  F --> G[Cost Analysis & Sensitivity Scenarios]
-  G --> H[Managerial Insights & Recommendations]
+  A[Raw Data: Divvy Trips + Stations] --> B[Data Cleaning & Exploration]  
+  B --> C[Preprocessing: demand, distances, imbalances]  
+  C --> D[MIP Model Formulation (Python + Gurobi)]  
+  D --> E[Optimization Engine]  
+  E --> F[Truck Routes + Station Inventories]   
+  F --> G[Cost Analysis & Sensitivity Scenarios]  
+  G --> H[Managerial Insights & Recommendations]  
 
 ----
 ## 💡 Why It Matters
@@ -81,6 +81,7 @@ Bike_Repositionning_Optimization_Plan/
 ├─ Project_Instructions.pdf
 ├─ README.md
 └─ requirements.txt
+
 
 
 
