@@ -7,10 +7,6 @@
 ## 📝 Overview
 Bike-sharing networks often face asymmetric demand: some stations overflow while others empty. This project applies decision analytics to design a repositioning strategy that minimizes cost while improving service availability. Using Divvy data as a proxy for Montreal’s BIXI, we implemented a truck-routing optimization model in Python with Gurobi. Results show that repositioning needs are highly time-dependent, requiring tailored strategies. Sensitivity analysis highlights cost drivers and informs managerial recommendations.
 
----
-
-## 🎯 Objective • Actions • Tasks • Conclusion
-
 **Objective**  
 - Alleviate supply–demand mismatch in bike-sharing systems by minimizing costs of truck-based bike repositioning.  
 
@@ -116,6 +112,7 @@ jupyter notebook notebooks/
 open either:
 - bike_repositionning_monday.ipynb
 - bike_repositionning_wednesday.ipynb
+
 
 
 
